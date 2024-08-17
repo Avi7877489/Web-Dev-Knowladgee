@@ -1,0 +1,8 @@
+.text-img{
+    font-size: 500px;
+    text-align: center;
+    background-image: url(1656188982014-01.jpeg);
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

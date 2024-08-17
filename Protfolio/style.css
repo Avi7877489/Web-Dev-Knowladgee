@@ -1,0 +1,242 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            /* background-image: url(bbbbbbb.avif); */
+            /* background-color: #f5f5f5; */
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav{
+
+
+            justify-content: space-around;
+            display: flex;
+            align-items: center;
+            background-color: rgb(18, 18, 62);
+            height: 6vh;
+
+
+        }
+        nav ul{
+            display: flex;
+            /* justify-content: center; */
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover{
+            color: rgb(153, 153, 226);
+            font-size: 1.05rem;
+        }
+
+        .left{
+            font-size: 1.5rem;
+        }
+
+        .first{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0px;
+        }
+
+        .first >div{
+            width: 30%;
+            /* background-color: red; */
+        }
+
+        .leftSection{
+            /* background-color: red; */
+            font-size: 2.5rem;
+            margin: 70px 0;
+        }
+        .rightSection img{
+            /* background-image: url(bgg.png); */
+            width: 80%;
+        }
+        .purple{
+            color: rgb(170, 107, 228);
+        }
+        #element{
+            color: rgb(170, 107, 228);
+        }
+
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
+
+        .leftSection .btn{
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 20px;
+            background: #1e2167;
+            border: 2px solid white;
+            color: white;
+            cursor: pointer;
+        }
+
+        .leftSection .btn:hover{
+            background-color: blueviolet;
+            font-size: 22px;
+        }
+
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        main hr{
+            border: 0;
+            background-color: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+        .text-gray{
+            color: gray;
+        }
+        .secondSection .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0; 
+            display: flex;
+        }
+    .secondSection .vertical{
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 6vw;
+    }
+
+    .image-top{
+        width: 35px;
+        position: relative;
+        top: -32px;
+        left: -17px;
+    }
+
+    .vertical-text{
+        position: relative;
+        width: 150px;
+        top: 75px;
+
+    }
+
+    .vertical-desc{
+        position: relative;
+        top: 86px;
+        width: 150px;
+        color: gray;
+        font-size: 10px;
+
+    }
+
+    footer{
+        background-color: #0e0e1a;
+        
+    }
+    .footer{
+        display: flex;
+        padding: 23px 77px;
+        justify-content: space-evenly;
+    }
+
+    .footer ul{
+        list-style: none;
+    }
+
+    .footer > div{
+        width: 223px;
+    }
+
+    .footer-rights{
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+    }
+
+    .footer-first {
+        margin: 26px;
+    }
+
+    @media screen and (max-width: 1400px) {
+      body{
+        /* background-color: red; */
+        min-width: fit-content;
+        height: unset;
+      }
+
+      nav{
+        flex-direction: column;
+        height: 16vh;
+      }
+
+      .first{
+        flex-direction: column-reverse;
+      }
+
+      .secondSection .box{
+        flex-direction: column;
+        width: 50vw;
+      }
+
+      .secondSection .vertical{
+        height: unset;
+      }
+
+
+      .vertical-text, .vertical-desc{
+        left: 45px;
+      }
+
+      .leftSection{
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .rightSection{
+        width: 721px !important;
+        display: flex;
+        justify-content: center;
+      }
+
+      .rightSection img{
+        width: 45vw;
+        margin-bottom: 73px;
+      }
+
+      .secondSection{
+        max-width: 80vw;
+        margin: auto;
+        height: 141vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .image-top{
+        top: 122px;
+      }
+
+    }
+
+
